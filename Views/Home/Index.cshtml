@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<script src="~/js/calculator.js"></script>
+<div class="text-center">
+    <h2>Calculator </h2>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <input type="text" id="op1">
+            <input type="text" id="oldOperator">
+            <input type="text" id="op2">
+            <input type="text" id="newOperator">
+            <input type="text" id='result' style="max-width: 1920px !important;width: 100%;">
+            <div id="keyPad">
+                <span id="clear" class="col-sm-3 btn btn-primary pull-right" style="margin-top: 10px; margin-bottom:10px">CE</span>
+                <div class="clearfix"></div>
+                <span id="num1" class="keypad col-sm-3 btn btn btn-default">1</span>
+                <span id="num2" class="keypad col-sm-3 btn btn-default">2</span>
+                <span id="num3" class="keypad col-sm-3 btn btn-default">3</span>
+
+                <span id="num4" class="keypad col-sm-3 btn btn-default">4</span>
+                <span id="num5" class="keypad col-sm-3 btn btn-default">5</span>
+                <span id="num6" class="keypad col-sm-3 btn btn-default">6</span>
+
+                <span id="num7" class="keypad col-sm-3 btn btn-default">7</span>
+                <span id="num8" class="keypad col-sm-3 btn btn-default">8</span>
+                <span id="num9" class="keypad col-sm-3 btn btn-default">9</span>
+
+                <span id="opAdd" class="keypad col-sm-3 btn btn-danger">+</span>
+
+                <span id="opSub" class="keypad col-sm-3 btn btn-danger">-</span>
+                
+                <span id="opMul" class="keypad col-sm-3 btn btn-danger">*</span>
+
+                <span id="opDivide" class="keypad col-sm-3 btn btn-danger">/</span>
+
+                <span id="equals" class="keypad col-sm-3 btn btn-success">=</span>
+
+            </div>
+        </div>
+    </div>
+</div>
